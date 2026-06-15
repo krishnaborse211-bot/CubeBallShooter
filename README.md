@@ -4,19 +4,6 @@ A third-person obstacle-course shooter built in Unity 6. Navigate an industrial
 arena using vaulting, climbing, and jumping mechanics to find and eliminate 5
 hidden targets before time runs out.
 
-![Gameplay Screenshot]
-![Gameplay 1](Screenshots/Screenshot%202026-06-15%20220841.png)
-
-![Gameplay 2](Screenshots/Screenshot%202026-06-15%20220900.png)
-
-![Gameplay 3](Screenshots/Screenshot%202026-06-15%20220930.png)
-
-![Gameplay 4](Screenshots/Screenshot%202026-06-15%20221002.png)
-
-![Gameplay 5](Screenshots/Screenshot%202026-06-15%20221140.png)
-
-![Gameplay 6](Screenshots/Screenshot%202026-06-15%20221252.png)
-
 ## 🎮 Play It
 - [Download Build](#) (Windows .exe via Releases)
 - [Watch Gameplay](#) (YouTube link)
@@ -94,4 +81,25 @@ out the value the animator depended on.
 - Designing systems with clear single responsibilities (one script = one job)
   made debugging dramatically faster than a single monolithic controller.
 
+![Gameplay Screenshot]
+![Gameplay 1](Screenshots/Screenshot%202026-06-15%20220841.png)
+
+![Gameplay 2](Screenshots/Screenshot%202026-06-15%20220900.png)
+
+![Gameplay 3](Screenshots/Screenshot%202026-06-15%20220930.png)
+
+![Gameplay 4](Screenshots/Screenshot%202026-06-15%20221002.png)
+
+![Gameplay 5](Screenshots/Screenshot%202026-06-15%20221140.png)
+
+![Gameplay 6](Screenshots/Screenshot%202026-06-15%20221252.png)
+
 ## 📂 Project Structure
+Assets/
+├── Scripts/
+│   ├── Player/        # PlayerController, PlayerMover, PlayerVault, etc.
+│   ├── Managers/       # GameManager, ScoreManager
+│   └── UI/
+├── Animation/
+├── Scenes/
+└── Materials/
