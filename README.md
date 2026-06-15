@@ -4,7 +4,7 @@ A third-person obstacle-course shooter built in Unity 6. Navigate an industrial
 arena using vaulting, climbing, and jumping mechanics to find and eliminate 5
 hidden targets before time runs out.
 
-![Gameplay Screenshot](‪C:\Users\asus\Pictures\Screenshots\Screenshot 2026-06-15 221002.png)
+![Gameplay Screenshot](‪Screenshot 2026-06-15 220841.png , )
 
 ## 🎮 Play It
 - [Download Build](#) (Windows .exe via Releases)
